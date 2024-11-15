@@ -1,0 +1,3 @@
+﻿  소스4.c
+C:\Users\Administrator\Desktop\Game Project\SBS-weekdays-C-word-Study\Class 3th (BIT)\소스4.c(74,33): warning C4305: '초기화 중': 'int'에서 'unsigned short'(으)로 잘립니다.
+  Class 3th (BIT).vcxproj -> C:\Users\Administrator\Desktop\Game Project\SBS-weekdays-C-word-Study\Program\x64\Debug\Class 3th (BIT).exe

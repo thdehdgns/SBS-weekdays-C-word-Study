@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class 1th_compile", "..\Cla
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "class 2th", "..\class 2th\class 2th.vcxproj", "{DC273BD3-17E6-41A7-8933-8488915ADAFB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class 3th (BIT)", "..\Class 3th (BIT)\Class 3th (BIT).vcxproj", "{EED6937F-7F5F-4D93-A2C3-3E62E2B89AE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{DC273BD3-17E6-41A7-8933-8488915ADAFB}.Release|x64.Build.0 = Release|x64
 		{DC273BD3-17E6-41A7-8933-8488915ADAFB}.Release|x86.ActiveCfg = Release|Win32
 		{DC273BD3-17E6-41A7-8933-8488915ADAFB}.Release|x86.Build.0 = Release|Win32
+		{EED6937F-7F5F-4D93-A2C3-3E62E2B89AE9}.Debug|x64.ActiveCfg = Debug|x64
+		{EED6937F-7F5F-4D93-A2C3-3E62E2B89AE9}.Debug|x64.Build.0 = Debug|x64
+		{EED6937F-7F5F-4D93-A2C3-3E62E2B89AE9}.Debug|x86.ActiveCfg = Debug|Win32
+		{EED6937F-7F5F-4D93-A2C3-3E62E2B89AE9}.Debug|x86.Build.0 = Debug|Win32
+		{EED6937F-7F5F-4D93-A2C3-3E62E2B89AE9}.Release|x64.ActiveCfg = Release|x64
+		{EED6937F-7F5F-4D93-A2C3-3E62E2B89AE9}.Release|x64.Build.0 = Release|x64
+		{EED6937F-7F5F-4D93-A2C3-3E62E2B89AE9}.Release|x86.ActiveCfg = Release|Win32
+		{EED6937F-7F5F-4D93-A2C3-3E62E2B89AE9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

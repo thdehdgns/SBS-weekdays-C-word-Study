@@ -78,6 +78,10 @@ void main()
 	//printf("FLAG를 NOT 연산값 :  %d", ~flag);
 #pragma endregion
 
+	// 첫 번째 비트는 부호를 나타내며, 첫 번째 비트에
+	// 1이 있다면 값은 음수가 됩니다.
+
+
 
 
 #pragma endregion
