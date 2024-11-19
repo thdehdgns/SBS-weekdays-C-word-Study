@@ -122,17 +122,96 @@ void main()
 
 		//if문에 연결된 모든 조건문의 조건이 맞을 때
 		//가장 위에 있는 조건문만 실행됩니다.
-		int a = 1;
+		//int a = 1;
+		//
+		//if (a >= 2)
+		//{
+		//	printf("a가 2보다 크거나 같다.");
+		//}
+		//else
+		//{
+		//	printf("a는 2보다 작음");
+		//}
 
-		if (a >= 2)
-		{
-			printf("a가 2보다 크거나 같다.");
-		}
-		else
-		{
-			printf("a는 2보다 작음");
-		}
 
+	#pragma endregion
+
+	#pragma region switch문
+		//어던 결과에 따라 그 결과부터 실행되는 명령문입니다.
+
+
+	#pragma region break 문
+		//특정한 지점에서 분기를 탈출하는 제어문입니다.
+
+
+	#pragma endregion
+
+		//char key = 'W';
+		//
+		//switch (key)
+		//{
+		//	// switch문은 해당 조건이 완료되었을 때, break
+		//	// 문이 없으면 나머지 밑에 있는 case 문까지
+		//	// 계속 실행시키다가 종료합니다.
+		//	case 'W':
+		//		printf("↑\n");
+		//		break;
+		//	case 'A':
+		//		printf("←\n");
+		//		break;
+		//	case 'S':
+		//		printf("↓\n");
+		//		break;
+		//	case 'D':
+		//		printf("→\n");
+		//		break;
+		//	default :
+		//		printf("다른 키를 입력해 주세요.");
+		//		break;
+		//}
+		// switch문의 경우 해당하는 값에 따라 조건의
+		// 위치로 이동합니다.
+	#pragma endregion
+
+	#pragma region 논리 연산자
+	
+	#pragma region AND연산자
+	//	int level = 99;
+	//	int exp = 10000;
+	//	
+	//	if (level >= 99 && exp >= 5000)
+	//	{
+	//		printf("전직을 할 수 있습니다.");
+	//	}
+
+	#pragma endregion
+
+	#pragma region OR연산자
+
+		//	int LEVEL = 1;
+		//	int EXP = 10;
+		//	
+		//	if (LEVEL >= 5 || EXP >= 10)
+		//	{
+		//		printf("LEVEL이 5이상이거나 EXP가 10이상입니다.\n");
+		//	}
+
+	
+	#pragma endregion
+
+	#pragma region NOT 연산자
+	
+		//int state = 0;
+		//
+		//if (!state)
+		//{
+		//	printf("gmae start");
+		//}
+
+	#pragma endregion
+
+	
+	
 
 	#pragma endregion
 
