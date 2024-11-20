@@ -47,21 +47,55 @@ void main()
 	
 	#pragma endregion
 
-	#pragma region 매크로
-		// 프로그램 내에서 특정한 데이터가 문자열로 
-		// 정의되고 처리되는 과정입니다. 
-	    
-		
-		// printf("매크로 SIZE의 값 : %d\n", SIZE);
-
-		// 매크로의 경우 자료형이 존재하지 않으므로,
-		// 메모리 공간을 가지고 있지 않습니다.
-		
-	#pragma endregion
 
 
 #pragma endregion
 
+#pragma region 매크로
+	// 프로그램 내에서 특정한 데이터가 문자열로 
+	// 정의되고 처리되는 과정입니다. 
+	
+	
+	// printf("매크로 SIZE의 값 : %d\n", SIZE
+	// 매크로의 경우 자료형이 존재하지 않으므로,
+	// 메모리 공간을 가지고 있지 않습니다.
+		
+#pragma endregion
+
+#pragma region 사분면
+	//	int x = 0;
+	//	int y = 0;
+	//	
+	//	if (x > 0 && y > 0)
+	//	{
+	//		printf("제 1사분면");
+	//	}
+	//	else if (x < 0 && y > 0)
+	//	{
+	//		printf("제 2사분면");
+	//	}
+	//	else if (x < 0 && y < 0)
+	//	{
+	//		printf("제 3사분면");
+	//	}
+	//	else if (x > 0 && y < 0)
+	//	{
+	//		printf("제 4사분면");
+	//	}
+	//	else if (x == 0 && y == 0)
+	//	{
+	//		printf("원점");
+	//	}
+	//	else if (x == 0 && y > 0 || y < 0)
+	//	{
+	//		printf("y절편");
+	//	}
+	//	else if (y == 0 && x > 0 || x < 0)
+	//	{
+	//		printf("x절편");
+	//	}
+
+#pragma endregion
 
 
 }
