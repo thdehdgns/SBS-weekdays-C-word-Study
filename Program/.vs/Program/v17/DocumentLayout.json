@@ -3,7 +3,10 @@
   "WorkspaceRootPath": "D:\\SBS-weekdays-C-word-Study\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00C5777A-DABC-4004-8BF5-DB9C34454DFD}|..\\Class 5th\\Class 5th.vcxproj|D:\\SBS-weekdays-C-word-Study\\Class 5th\\\uC18C\uC2A46.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CEA153B3-DE8D-4856-8AF2-A940DB94D94C}|..\\Class 7th\\Class 7th.vcxproj|D:\\SBS-weekdays-C-word-Study\\Class 7th\\\uC18C\uC2A48.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF51A61-0C1E-41F5-A3B4-9AB47FC1DBF3}|..\\Class 6th\\Class 6th.vcxproj|D:\\SBS-weekdays-C-word-Study\\Class 6th\\\uC18C\uC2A47.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,14 +21,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "\uC18C\uC2A46.c",
-              "DocumentMoniker": "D:\\SBS-weekdays-C-word-Study\\Class 5th\\\uC18C\uC2A46.c",
-              "RelativeDocumentMoniker": "..\\Class 5th\\\uC18C\uC2A46.c",
-              "ToolTip": "D:\\SBS-weekdays-C-word-Study\\Class 5th\\\uC18C\uC2A46.c",
-              "RelativeToolTip": "..\\Class 5th\\\uC18C\uC2A46.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAFAAAAAAAAAA==",
+              "Title": "\uC18C\uC2A48.c",
+              "DocumentMoniker": "D:\\SBS-weekdays-C-word-Study\\Class 7th\\\uC18C\uC2A48.c",
+              "RelativeDocumentMoniker": "..\\Class 7th\\\uC18C\uC2A48.c",
+              "ToolTip": "D:\\SBS-weekdays-C-word-Study\\Class 7th\\\uC18C\uC2A48.c",
+              "RelativeToolTip": "..\\Class 7th\\\uC18C\uC2A48.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-19T10:02:43.955Z",
+              "WhenOpened": "2024-11-21T10:04:18.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\uC18C\uC2A47.c",
+              "DocumentMoniker": "D:\\SBS-weekdays-C-word-Study\\Class 6th\\\uC18C\uC2A47.c",
+              "RelativeDocumentMoniker": "..\\Class 6th\\\uC18C\uC2A47.c",
+              "ToolTip": "D:\\SBS-weekdays-C-word-Study\\Class 6th\\\uC18C\uC2A47.c",
+              "RelativeToolTip": "..\\Class 6th\\\uC18C\uC2A47.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-21T09:15:24.612Z",
               "EditorCaption": ""
             }
           ]

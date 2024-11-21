@@ -7,10 +7,6 @@ void main()
 	// 프로그램 내에서 특정한 작업을 반복적으로 
 	// 수행하는 명령문입니다.
 
-	
-
-#pragma endregion
-
 #pragma region 증감 연산자
 	//피 연산자를 하나씩 증가시키거나 감소시킬 때
 	//사용하는 연산자입니다/
@@ -80,8 +76,71 @@ void main()
 	// 다시 위에있는 명령문으로 돌아가서 실행합니다.
 #pragma endregion
 
+#pragma region do while 문
+	// 조건과 상관없이 한 번의 작업을 수행한 다음
+	// 조건에 따라 명령문을 실행하는 반복문입니다.
+
+	//	int connection = 0;
+	//	
+	//	do
+	//	{
+	//		printf("connection\n");
+	//		connection++;
+	//	} while (connection<0);
+#pragma endregion
+
+#pragma region continue문
+	// 해당 조건문만 실행하지 않고, 반복문은 이어서 
+	// 실행하는 제어문입니다.
+	//	for (int i = 1; i < 11; i++)
+	//	{
+	//		if (i % 3)
+	//		{
+	//			printf("%d\n", i);
+	//			
+	//		}
+	//		continue;
+	//		
+	//	}
+#pragma endregion
+
+#pragma region 단축 평가 계산
+	// 계산을 진행하는 도중에 결과가 이미 확정된 경우,
+	// 나머지 계산하는 과정을 생략하는 평가입니다.
+
+	//	int x = 0;
+	//	int y = 0;
+	//	int z = 0;
+	//	if (x == 0 && y++)
+	//	{
+	//		printf("Short Circuit\n");
+	//	}
+	//	if (z == 0 || y++)
+	//	{
+	//		printf("OR Operator\n");
+	//	}
+	//	
+	//	printf("y의 값은 : %d\n", y);
 
 #pragma endregion
+
+#pragma region 이중 for문
+	//	for (int i = 0; i < 3; i++)
+	//	{
+	//		printf("i의 값: %d\n", i);
+	//		for (int j = 0; j < 3; j++)
+	//		{
+	//			printf("j의 값: %d\n",j);
+	//		}
+	//	}
+#pragma endregion
+
+
+#pragma endregion
+	
+
+#pragma endregion
+
 
 
 }
