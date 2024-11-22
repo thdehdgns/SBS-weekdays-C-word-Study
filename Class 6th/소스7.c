@@ -74,7 +74,7 @@ void main()
 	//while문의 경우 위에서 아래로 실해오디며,
 	// 아래에 있느 명령문으 실행이 다 끝나면
 	// 다시 위에있는 명령문으로 돌아가서 실행합니다.
-#pragma endregion
+#pragma endregion //s
 
 #pragma region do while 문
 	// 조건과 상관없이 한 번의 작업을 수행한 다음
