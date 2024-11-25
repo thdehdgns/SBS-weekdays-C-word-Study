@@ -11,6 +11,7 @@ void main()
 
 	//int data = 10;
 	//printf("%p",& data);
+#pragma endregion
 
 #pragma region scanf 함수
 	// 표준 입력 함수로, 여러 종류의 데이터를 다양한
@@ -89,18 +90,60 @@ void main()
 
 	// 범용 포인터는 메모리 주소에 접근해서 값을/
 	// 변경할 수 없습니다.
-	int a = 2;
-	char b = 'A';
-	void* pointer =NULL;
-	pointer = &b;
-	pointer = (char*)'B';
-	printf("pointer : %c\n", pointer);
-	
-	
-	
+
+	//범용 포인터로 변수의 메모리에 접근하려면
+	//범용 포인터가 가르키는 변수의 자료형으로
+	// 형 변환을 해주어야 합니다.
+	//	void* p =NULL;
+	//	int integer = 2;
+	//	char c = 'A';
+	//	float decimal = 5.5f;
+	//	
+	//	p = &c;
+	//	*(char*)p = 'B';
+	//	
+	//	p = &integer;
+	//	*(int*)p = 15;
+	//	
+	//	p = &decimal;
+	//	*(float*)p = 0.5f;
+	//	printf("%d\n",integer);
+	//	printf("%c\n", c);
+	//	printf("%f\n", decimal);
+
 #pragma endregion
 
+#pragma region 상수 지시 포인터
+//	const int* ptr;
+//	int x = 10;
+//	int y = 20;
+//	
+//	//상수 지시 포인터를 선언하게 되면 포인터 변수가
+//	// 가리키고 있는 주소에 존재하는 값을 변경할 수 
+//	//없도록 설정할 수 있습니다.
+//	//*ptr = 10; <- 이게 안된다는 소리
+//	ptr = &x;
+//	printf("ptr 변수가 가르키는 값: %d\n", *ptr);
+//	ptr = &y;
+//	printf("ptr 변수가 가르키는 값: %d\n",*ptr);
+//	
+//	
+//	
+//	char a[100] = "안녕하세요 저는 문자열입니다";
+//	printf("\n%s", a);
+#pragma endregion
 
+#pragma region 포인터 상수 
+// 상수 지시 포인터의 반대. 포인터에 접근해서 메모리 변경은 가능
+//	int positionX = 5;
+//	int positionY = 0;
+//	int * const cptr = positionX;
+//	
+//	
+//	*cptr = 20;
+
+//포인터 상수는 해당 변수의 값을 변경할 수 있지만,
+// 다른 메모리 주소를 저장할 수 없습니다.
 #pragma endregion
 
 
