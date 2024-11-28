@@ -30,16 +30,71 @@ int Compare(float a, float b)
 }
 
 
-void Swap(int a, int b,int *p1, int *p2)
+void Swap(int * a, int * b)
 {
 	
-	int temp = a;
-	a = b;
-	b = temp;
-	*p1 = a;
-	*p2 = b;
+	int temp = *a;
+	*a = *b;
+	*b = temp;
+	
 	
 }
+
+inline void Process(float progress)
+{
+	printf("progress :%f\n", progress);
+
+	//인라인 함수는 컴파일 시점에 확장되며, 컴파일
+	// 시 인라인 함수로 선언하더라도 상황에 따라
+	// 일반 함수로 변환되기도 합니다.
+}
+
+
+void Recursive(int count)
+{
+
+	--count;
+	printf("asd\n");
+	if (count <= 0)
+	{
+		return;
+	}
+	else
+	{
+		
+		Recursive(count);
+
+	}
+}
+
+void Ai()
+{
+	int array[10] = { 4,3,2,5,6,7,8,9,0,1 };
+	int temp = 0;
+	int min = 5;
+	
+		for (int i = 0; i <= sizeof(array) / 4; i++)
+		{
+			if (array[i] < array[i + 1])
+			{
+				min = array[i];
+			}
+			else
+			{
+				temp = array[i];
+				array[i] = array[i + 1];
+				array[i + 1] = temp;
+			}
+		}
+
+	for (int i = 0; i < 9; i++)
+	{
+		printf("%d", array[i]);
+	}
+		
+		
+}
+
 int main()
 {
 #pragma region 함수
@@ -81,13 +136,41 @@ int main()
 	// 인수의 경우 함수에 있는 매개 변수의 수에 따라
 	// 전달할 수있는 인수의 수가 결정되며, 값을 전달하는
 	// 인수와 값을 전달받는 매개 변수의 자료형이 서로 일치해야 합니다.
-	int a = 10;
-	int b = 20;
-	int* p1 = &a;
-	int* p2 = &b;
-	Swap(a, b,p1,p2);
-	printf("a의 값: %d b의 값: %d", a, b);
+	//int a = 10;
+	//int b = 20;
+	//
+	//Swap(&a, &b);
+	//printf("a의 값: %d b의 값: %d", a, b);
 	
 #pragma endregion
+
+#pragma region 인라인 함수
+	// 함수를 호출하는 대신 함수가 호출되는 위치마다 
+	// 함수의 코드를 복사하여 전달하는 방식의 함수입니다.
+
+	//Process(46.7f);
+
+	//인라인 함수는 함수를 호출하는 과정이 없으므로 처리속도가
+	// 빠르지만, 인라인 함수를 많이 사용하게 되면 함수의 코드가
+	// 복사되기 때문에 실행 팔일의 크기가 커지게됩니다.
+#pragma endregion
+
+#pragma region 재귀 함수
+	// 어떤 함수에서 자신을 다시 호출하여 작업을 
+	// 수행하는 함수입니다.
+
+	
+	//Recursive(3);
+
+	// 재귀 함수는 함수를 계속 호출하기 때문에 스택 영역에
+	// // 메모리가 계속 쌓이게 되므로 스택 오버플로우가
+	// // 발생하게됩니다. 
+
+
+#pragma endregion
+
+	
+	Ai();
+	
 
 }
