@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+#include <stdarg.h>
 int SUM(int a, int b)
 {
 	int c = a + b;
@@ -67,32 +67,21 @@ void Recursive(int count)
 	}
 }
 
-void Ai()
+void Dynamic(int count, ...)
 {
-	int array[10] = { 4,3,2,5,6,7,8,9,0,1 };
-	int temp = 0;
-	int min = 5;
-	
-		for (int i = 0; i <= sizeof(array) / 4; i++)
-		{
-			if (array[i] < array[i + 1])
-			{
-				min = array[i];
-			}
-			else
-			{
-				temp = array[i];
-				array[i] = array[i + 1];
-				array[i + 1] = temp;
-			}
-		}
+	//va_list : 가변 인수의 메모리 주소를 저장하는 포인터
+	va_list list;
 
-	for (int i = 0; i < 9; i++)
+	//va_start : 가변 인수를 가져올 수 있도록 포인터를 설정합니다.
+	va_start(list, count);
+
+	for (int i = 0; i < count; i++)
 	{
-		printf("%d", array[i]);
+		//va_arg : 가변 인수 포인터에서 특정 자료형의 크기만큼 값을 가져옵니다.
+		printf("%d\n", va_arg(list, int));
 	}
-		
-		
+	//va_end : 가변 인수 포인터가 끝났을 때 NULL로 초기화합니다.
+	va_end(list);
 }
 
 int main()
@@ -169,8 +158,22 @@ int main()
 
 #pragma endregion
 
+#pragma region 가변 길이 매개 변수 
+	// 매개 변수로 들어오는 값의 개수와 상관 없이
+	//동적으로 인수를 받을 수 있도록 설정되어있는
+	// 매개변수입니다.
+
 	
-	Ai();
+	
+	//Dynamic(4,10,20,30,40);
+
+
+	
+
+#pragma endregion
+
+	
+	
 	
 
 }
