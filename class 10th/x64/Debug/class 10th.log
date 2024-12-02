@@ -1,2 +1,6 @@
 ﻿  소스11.c
+C:\Users\Administrator\Desktop\Game Project\SBS-weekdays-C-word-Study\class 10th\소스11.c(121,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\Administrator\Desktop\Game Project\SBS-weekdays-C-word-Study\class 10th\소스11.c(121,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\Administrator\Desktop\Game Project\SBS-weekdays-C-word-Study\class 10th\소스11.c(133,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\Administrator\Desktop\Game Project\SBS-weekdays-C-word-Study\class 10th\소스11.c(133,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
   class 10th.vcxproj -> C:\Users\Administrator\Desktop\Game Project\SBS-weekdays-C-word-Study\Program\x64\Debug\class 10th(function).exe
